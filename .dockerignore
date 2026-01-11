@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+*.log
+src/tests
+jest.config.js
+tsconfig.eslint.json
+eslint.config.js
+.git
+.vscode

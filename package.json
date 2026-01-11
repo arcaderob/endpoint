@@ -1,0 +1,32 @@
+{
+  "name": "endpoint",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sample HTTP Endpoint",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "node --loader ts-node/esm --watch src/server.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Rob Gill <rob@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.6",
+    "eslint": "^9.39.2",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0"
+  }
+}

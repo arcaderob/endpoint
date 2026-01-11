@@ -1,0 +1,5 @@
+node_modules/
+dist/
+# .env Normally, this would be ignored. Comitting it for this example.
+.DS_Store
+package-lock.json
